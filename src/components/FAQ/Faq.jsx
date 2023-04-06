@@ -1,7 +1,6 @@
 import "./assets/style.css"
 import React from "react";
 import Header from "../Header/Header";
-import hamburguer from '../FAQ/assets/plus.svg'
 import FooterF from "../Footer_Faq/FooterFaq"
 import Accordion from 'react-bootstrap/Accordion';
 

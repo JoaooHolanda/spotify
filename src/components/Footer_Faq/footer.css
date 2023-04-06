@@ -1,6 +1,6 @@
 /* Ajeitar recursividade */
 
-@media (aspect-ratio: 4 / 3) { 
+@media (min-width:950px) and (min-height:700px) { 
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     footer{
         position: fixed;
@@ -13,6 +13,10 @@ footer{
     font-family: 'Baloo 2', bold;
 }
 
+footer a{
+    text-decoration: none;
+}
 footer p:hover{
+    text-decoration: none;
     color: #1ed760;
 }
