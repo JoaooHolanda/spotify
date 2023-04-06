@@ -2,6 +2,7 @@ import React from "react";
 import './header.css'
 import p1 from './assets/spotify-logo-branca-white.png'
 import p2 from './assets/pngegg.png'
+import { Toaster } from "react-hot-toast";
 
 function Header(){
     return(
@@ -9,6 +10,7 @@ function Header(){
                <header>
         <div class="content_header">
           <img src= {p1}/>
+          
           <nav class="navigation">
             <div class="content_navigation">
               <a href="/"> Premium </a>

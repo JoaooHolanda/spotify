@@ -25,13 +25,14 @@ function Faq(){
     <p> 
       Selecione o item com o qual você precisa de ajuda abaixo</p>
   </div>
-  <div class="subs">
-        <p>Perguntas Frenquentes</p>
-  </div>
+
       
 
 
     <div class="container quest">
+    <div class="subs">
+        <p>Perguntas Frenquentes</p>
+  </div>
     <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Como posso executar uma reinstalação limpa do aplicativo?</Accordion.Header>

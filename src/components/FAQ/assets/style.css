@@ -13,6 +13,7 @@ body{
 
 .accordion-button:not(.collapsed) {
   color: #1ed760;
+  
 }
 
 
@@ -20,7 +21,10 @@ h2{
   font-family: 'Baloo 2', bold;
 }
 
-
+.accordion-body{
+  font-family: 'Baloo 2', initial;
+  
+}
 
 h2 :{
   color: #1ed760;
