@@ -1,0 +1,116 @@
+/*  -------------------- header ----------------- */
+
+header {
+    min-width: 100%;
+    min-height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+  }
+  
+  .content_header {
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .content_header img {
+    width: 132px;
+    height: 40px;
+  }
+  
+  .navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .content_navigation {
+    display: flex;
+    color: white;
+    height: 80px;
+    align-items: center;
+  }
+  
+  .content_navigation a {
+    font-family: 'Baloo 2', bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ccc;
+    padding: 28px 17px;
+    display: flex;
+    text-align: center;
+    margin-left: 0.6rem;
+  }
+
+  .content_navigation a:hover{
+    color: #1ed760;
+  }
+  
+  .markup {
+    padding-left: 28px;
+    height: 18px;
+    border-right: 1px solid white;
+  }
+  
+  
+  .spaceWhite {
+    min-width: 2%;
+  }
+  .perfil {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .perfil img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .arrow {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  } 
+  
+  @media only screen and (max-width :558px) {
+    .content_header a{
+      visibility: hidden;
+      display: none;
+    }
+    .content_header{
+      width: auto;
+      text-align: center;
+  
+      
+    }
+    .perfil img{
+      visibility: hidden;
+      display: none;
+    }
+
+    .arrow{
+      visibility: visible;
+      display: block;
+    }
+  } 
+
+
+/* Try */
+
+
+
+
+
